@@ -1,0 +1,38 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>注册</title>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link href="/css/login.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		#fontcolor{
+			color:#12b066;
+		}
+		.blockbj{
+			background:#12b066;
+		}
+	</style>
+</head>
+<body>
+	<% include pages/header.ejs %>>
+	<div class="login">
+		<div class="login-top">
+			<h1 id="fontcolor">注册</h1>
+			<form >
+				<input type="text" name="username" value="用户名" id="username" >
+				<input type="password" name="password" value="password" id="password" >
+				<input type="text" name="email" value="email" id="email" >
+			</form>
+			<div class="forgot">
+				<input type="submit" value="注册" name="Register" id="register" style="background:#12b066;">
+			</div>
+		</div>
+		<div class="login-bottom" style="background:#12b066;border-top:solid 2px #12b066;" >
+			<h3><a href="login">登录</a></h3>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/js/register.js"></script>
+</html>
